@@ -1,11 +1,15 @@
 import React, { useState } from 'react'
 import { StyleProvider } from './components'
 import { MainPage } from './MainPage'
+import { Router } from './Router'
+import { Route } from 'react-router'
 
 
 export const App = () => (
     <StyleProvider>
-        <MainPage />
+        <Router>
+            <Route path="/" component={MainPage} />
+        </Router>
     </StyleProvider>
 )
     
