@@ -40,13 +40,11 @@ export const MainPage = () => {
             open={drawerIsOpen}
             onClose={() => showDrawer(false)}
             render={() => (
-                <Area>
-                    {/* <Card>
+                    <Card style={{ flex: 1 }}>
                         <Card.Content>
                             <Text>Hi</Text>
                         </Card.Content>
-                    </Card> */}
-                </Area>
+                    </Card>
             )}>
             <Container>
                 <Section>
