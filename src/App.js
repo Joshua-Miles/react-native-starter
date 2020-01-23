@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { StyleProvider } from './components'
 import { MainPage } from './MainPage'
 import { Router } from './Router'
