@@ -1,6 +1,8 @@
 // Native and Platform Components
 import { View, TouchableOpacity, Platform, ScrollView, Animated, PanResponder, Modal as LegacyModal } from 'react-native'
 
+require('./platform')
+
 // Native Paper Components
 import { Provider as StyleProvider, Appbar, Avatar, Menu, Divider, Badge, RadioButton, Snackbar, Portal, ProgressBar, Checkbox } from 'react-native-paper';
 
